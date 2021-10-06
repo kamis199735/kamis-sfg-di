@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      - dog
+      - EN
+      -  qa
+kamis199735:
+  username: YmlUserName
+  password: YmlPassword
+  jdbcurl: YmlUrl
+
+---
+spring:
+  profiles: prod
+kamis199735:
+  username: YmlProdUserName
+  password: YmlProdPassword
+  jdbcurl: YmlProdUrl
+
